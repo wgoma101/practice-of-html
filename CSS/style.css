@@ -1,0 +1,81 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+/* ------ Navigation bar style ------*/
+header{
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    background-color: #F7F9F9;
+}
+.main-nav{
+    padding: 10px;
+    display: flex;
+    column-gap: 40px;
+}
+.main-nav a:hover{
+    color: red;
+}
+.main-nav a{
+    font-size: 20px;
+    color: #3C404A;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+#selected{color: #5762d5;}
+/* ------ Intro section ------*/
+#intro{
+    display: flex;
+    background-color: #F7F9F9;
+    color : black;
+}
+button:hover{
+    background-color: #4149a3;
+}
+button{
+    width :100%;
+    background-color: #5762d5;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+/* ------ Main Content ------*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 900px;
+    gap : 20px;
+    background-color: orange;
+    margin: auto;
+}
+#nav-cat{
+    background-color: red;
+    width: 200px;
+}
+.product-card{
+    background-color: #e9e6f0;
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+}
+.product-img{
+    border-radius: 20px 20px 0px 0px;
+    width: 200px;
+}
+
+/* ------ Footer section ------*/
+footer{
+    background-color: #2B2343;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
